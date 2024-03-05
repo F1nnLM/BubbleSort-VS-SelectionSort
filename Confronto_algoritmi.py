@@ -3,15 +3,6 @@ import time
 import timeit
 import matplotlib.pyplot as plt
 
-#Stampa su schermo dell grafico
-def stampaGrafico(tempi_bs, tempi_ss):
-    plt.plot(tempi_bs, label = "Bubble sort", color = "purple")
-    plt.plot(tempi_ss, label = "Selection Sort", color = "orange")
-    plt.title('Tempi di esecuzione di Bubble Sort e Selection Sort')
-    plt.xlabel('Iterazioni e grandezza array')
-    plt.ylabel('Tempo')
-    plt.legend()
-    plt.show()
 
 '''Crea un grafico che raffiguara il tempo di esecuzione dei due algoritmi 
 che ordinano ad ogni ciclo un array casuale che cambia e aumenta di un indice ad ogni ciclo;'''
